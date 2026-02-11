@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Super-App: Nexus 10K</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="sidebar">
+        <h2>Nexus 10K</h2>
+        <button onclick="showFeature('gemini')">Gemini AI</button>
+        <button onclick="showFeature('aakash')">Aakash Quiz</button>
+        <button onclick="showFeature('social')">Social Feed</button>
+    </div>
+    <div id="main-content">
+        <div id="display">Welcome to your Master App. Choose a module.</div>
+        <input type="text" id="userInput" placeholder="Ask AI anything...">
+        <button onclick="askGemini()">Run Module</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
