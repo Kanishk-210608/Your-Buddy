@@ -1,0 +1,5 @@
+body { display: flex; background: #121212; color: white; font-family: sans-serif; height: 100vh; margin: 0; }
+#sidebar { width: 250px; background: #1f1f1f; padding: 20px; border-right: 1px solid #333; }
+#main-content { flex-grow: 1; padding: 40px; display: flex; flex-direction: column; }
+button { margin: 10px 0; padding: 12px; background: #3b82f6; border: none; color: white; border-radius: 8px; cursor: pointer; }
+input { padding: 15px; border-radius: 8px; border: none; background: #333; color: white; margin-top: auto; }
